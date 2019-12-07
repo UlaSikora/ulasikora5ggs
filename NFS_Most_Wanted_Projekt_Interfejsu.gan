@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-12-06" view-index="0" gantt-divider-location="474" resource-divider-location="300" version="2.8.10" locale="pl_PL">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nazwa zadania" width="315" order="0"/>
+        <field id="tpd4" name="Data rozpoczęcia" width="88" order="1"/>
+        <field id="tpd5" name="Data zakończenia" width="67" order="2"/>
+        <option id="color.recent"><![CDATA[#ff0033 #33ff33 #33ccff #ff3333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Osoba" width="210" order="0"/>
+        <field id="1" name="Domyślna rola" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Przydzielenie pracy" color="#ff3333" meeting="false" start="2019-12-09" duration="1" complete="0" thirdDate="2019-11-19" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="5" name="Tworzenie szkicu interfejsu" color="#33ff33" meeting="false" start="2019-12-10" duration="1" complete="0" thirdDate="2019-11-18" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Tworzeneie szkicu ikon interfejsu" color="#33ff33" meeting="false" start="2019-12-10" duration="1" complete="0" thirdDate="2019-11-18" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Omówienie projektu z współpracownikami oraz przygotowanie do rozmowy z klientem" color="#ff0033" meeting="false" start="2019-12-11" duration="1" complete="0" thirdDate="2019-11-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="24" name="Korekty przed spotkaniem z klientem" color="#33ff33" meeting="false" start="2019-12-12" duration="1" complete="0" thirdDate="2019-11-15" thirdDate-constraint="0" expand="true"/>
+        <task id="27" name="Spotaknie z klientem oraz przedstawienie szkicu" color="#ff3333" meeting="false" start="2019-12-13" duration="1" complete="0" thirdDate="2019-11-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="37" name="Poprawki oraz tworzenie interfejsu i ikon" color="#33ff33" meeting="false" start="2019-12-16" duration="4" complete="0" thirdDate="2019-11-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="40" name="Drugie spotkanie z klientem.Przedstawienie finalnej wersji." color="#ff3333" meeting="false" start="2019-12-20" duration="1" complete="0" thirdDate="2019-11-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="42" name="Przerwa swiąteczna" color="#33ccff" meeting="false" start="2019-12-20" duration="9" complete="0" thirdDate="2019-11-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="46" name="Ostateczne poprawki" color="#33ff33" meeting="false" start="2020-01-02" duration="2" complete="0" thirdDate="2019-12-06" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="49" name="Przedstawienie Klientowi gotowego projektu" color="#ff0033" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2019-12-06" thirdDate-constraint="0" priority="4" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ula" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Monika" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Adam" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
